@@ -1,0 +1,10 @@
+.caixaP{
+    background-color: #fff;
+    display: flex;
+    width:498px ;
+    border-radius: 24px;
+    padding: 32px;
+    gap: 16px;
+    border: 1px solid #eee;
+    flex-direction: column;
+}

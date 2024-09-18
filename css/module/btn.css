@@ -1,0 +1,14 @@
+.botaoP{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #FF2459;
+    color: white;
+    border-radius: 16px;
+    padding: 12px 32px 12px 32px;
+    font-family: Poppins;
+    border: none;
+    margin-top: 16px;
+    }
