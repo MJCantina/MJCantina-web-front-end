@@ -6,12 +6,14 @@
 .btn{
     background-color: var(--cor-rosa--);
     color: var(--cor-branca--);
-    border-radius: 8px;
+    border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: var(--poppins--);
+    font-size: 10px;
+    font-weight: 600;
     border: none;
     width: 100px;
-    height: 30px;
+    height: 36px;
     }
