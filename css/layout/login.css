@@ -15,7 +15,6 @@ h2.tituloLogin{
 }
 
 h3.textLogin{
-    font-family: var(--poppins--);
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 5px;
@@ -27,7 +26,6 @@ h3.textLogin{
 
 input{
     border-radius: 12px;
-    font-family: var(--poppins--);
     font-size: 10px;
     background-color: var(--input--);
     border: none;
@@ -48,7 +46,6 @@ input{
 .linkEsqSenha{
     size: 10px;
    line-height: 15.01px;
-   font-family: var(--poppins--);
    font-size: 8px;
    color: black;
    text-decoration: none;

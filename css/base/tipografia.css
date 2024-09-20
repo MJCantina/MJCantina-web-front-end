@@ -12,4 +12,5 @@ h2{
 
 h3{
     font-size: 12px;
+    font-family: var(--poppins--);
 }
