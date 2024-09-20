@@ -2,25 +2,28 @@
     box-sizing: border-box;
   }
 
-.logoMJ {
+h1.logoMJ {
     text-align: center;
     font-family: var(--logo--);
 }
 
 
-.tituloLogin{
+h2.tituloLogin{
     margin-top: 30px;
     font-size: 18px;
     font-weight: 600;
 }
 
 h3.textLogin{
-    font-family: Poppins;
+    font-family: var(--poppins--);
     font-weight: 400;
     font-size: 12px;
     margin-bottom: 5px;
 }
 
+.tituloLog {
+    height: 50px;
+}
 
 input{
     border-radius: 12px;

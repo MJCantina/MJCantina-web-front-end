@@ -5,3 +5,11 @@
     --logo--: 'Montserrat';
     --poppins--: 'Poppins';
 }
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 12px;
+}
