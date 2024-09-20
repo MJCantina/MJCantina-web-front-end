@@ -1,5 +1,5 @@
 body{
-    background-color: #f0f0f0;
+    background-color: var(--background--);
     height: 100vh;
     gap: 16px;
     padding: 0%;
