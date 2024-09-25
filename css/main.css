@@ -10,4 +10,6 @@
 @import url("layout/senhaAtualizada.css");
 @import url("base/variaveis.css");
 @import url("base/tipografia.css");
-@import url("layout/responsive/resp_login.css")
+@import url("layout/responsive/resp_login.css");
+@import url("layout/responsive/resp_esqueceuSenha.css");
+@import url("layout/responsive/resp_recuperarSenha.css");

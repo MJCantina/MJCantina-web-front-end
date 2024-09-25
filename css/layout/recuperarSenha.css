@@ -32,5 +32,12 @@
 }
 
 .botaoEnviar {
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.camposRS {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    height: 25%;
 }
