@@ -1,0 +1,47 @@
+
+@media(max-width:820px){
+    .caixaCodigos{
+        width: 700px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codigo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .tituloLogin{
+        margin-bottom: 0px;
+    }
+
+    .inputsCodigo{
+        margin-top: 0px;
+    }
+}
+
+
+
+@media (max-width:390px){
+    .caixaCodigos{
+        width: 360px;
+        padding: 20px;
+    }
+    .subtitulo{
+        font-size: 14px;
+    }
+
+    .codigo{
+        height: 50px;
+        width: 50px;
+    }
+
+    .inputsCodigo{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+
+}
