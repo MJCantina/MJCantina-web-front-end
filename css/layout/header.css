@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+header{
+    height:120px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saudacao{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+p{
+    font-family: var(--poppins--);
+    color: rgb(127, 123, 123);
+}
+
+.btns_header{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btns_balcao_conta{
+   
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    background-color: var(--cor-branca--);
+}
+
+.btns_config_sair{
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid lightgray;
+    background-color: var(--cor-branca--);
+}
+
+
+

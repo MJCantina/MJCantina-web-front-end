@@ -14,3 +14,8 @@ h3{
     font-size: 12px;
     font-family: var(--poppins--);
 }
+
+h1.logoMJ {
+    text-align: center;
+    font-family: var(--logo--);
+}
