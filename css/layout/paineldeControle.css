@@ -1,0 +1,24 @@
+.boxConf{
+    width: 100%;
+    height: 500px;
+    background-color: var(--background--);
+    border-radius: 8px;
+}
+
+.containerConfig{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.categoriasConfig{
+    width: 160px;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+}
