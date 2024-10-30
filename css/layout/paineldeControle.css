@@ -1,7 +1,11 @@
+.painelControle{
+    margin: 16px;
+}
+
 .boxConf{
     width: 98%;
     margin: 16px;
-    height: 450px;
+    height: 440px;
     background-color: lightgray;
     border-radius: 8px;
 }
@@ -15,7 +19,7 @@
 }
 
 .categoriasConfig{
-    width: 180px;
+    width: 220px;
     height: 150px;
     background-color: white;
     border-radius: 8px;
@@ -50,3 +54,4 @@
     display: flex;
     justify-content: center;
 }
+
