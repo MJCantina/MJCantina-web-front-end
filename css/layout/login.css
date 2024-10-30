@@ -51,6 +51,8 @@ input{
     font-family: Montserrat;
     size: 36px;
     line-height: 43.92px;
+    display: flex;
+    justify-content: center;
 
 }
 
