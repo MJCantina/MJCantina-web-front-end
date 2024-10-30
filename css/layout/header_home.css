@@ -45,12 +45,10 @@ p{
 }
 
 .btns_config_sair{
-    padding: 20px;
     border-radius: 16px;
     border: 1px solid lightgray;
     background-color: var(--cor-branca--);
-    width: 24px;
-    height: 24px;
+    padding: 15px;
 }
 
 
