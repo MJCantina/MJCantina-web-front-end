@@ -17,5 +17,6 @@
 @import url("layout/responsive/resp_codigo.css");
 @import url("layout/telaInicial.css");
 @import url("layout/header_home.css");
-@import url("layout/paineldeControle.css");
+@import url("layout/painelDeControle.css");
 @import url("layout/caixa.css");
+@import url("module/navigation_bar.css");
