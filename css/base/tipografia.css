@@ -8,6 +8,8 @@
 
 h2{
     font-size: 18px;
+    font-family: var(--poppins--);
+    font-weight: 500;
 }
 
 h3{
