@@ -49,3 +49,18 @@
     align-items: center;
 
 }
+
+.descricaoFunc{
+    background-color: white;
+    width: 640px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
+    height: 90%;
+    display: flex;
+    align-items: center;
+
+}
