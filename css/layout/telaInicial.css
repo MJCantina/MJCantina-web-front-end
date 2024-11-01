@@ -25,7 +25,7 @@
 
 .quant_pedidos_fazer{
     border-radius: 16px;
-    border: 1px solid lightgray;
+    border: var(--borda--);
     background-color: var(--cor-branca--);
     padding: 15px;
     width: 50px;
@@ -34,7 +34,7 @@
 
 .icon_eye{
     border-radius: 16px;
-    border: 1px solid lightgray;
+    border: var(--borda--);
     background-color: var(--cor-branca--);
     padding: 15px;
     width: 50px;
@@ -51,7 +51,7 @@
 
 .quant_pedidos_concluidos{
     border-radius: 16px;
-    border: 1px solid lightgray;
+    border: var(--borda--);
     background-color: var(--cor-branca--);
     padding: 15px;
     width: 50px;
@@ -89,4 +89,9 @@
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.teste{
+    height: 1000px;
+    position: fixed;
 }
