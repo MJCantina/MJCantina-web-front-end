@@ -26,30 +26,24 @@
 
 .adicionar{
     height: 112px;
+    width: 100%;
     background-color:rgb(228, 227, 227);
-    border-radius: 3%;
+    border-radius: 24px;
     gap: 8px;
-    left:24px;
-    right: 24px;
     border-radius: 24px;
     display: flex;
     align-items: center;
-    margin-top: 22px;
+    padding: 16px;
 }
 
-.addF{
-    font-family: Poppins;
-    font-weight: 500;
-    margin-left: 30px;
-    margin-right: 5px;
-    
-}
 
 
 .informacao{
     background-color: rgb(228, 227, 227);
-   height: 500px;
+    height: 700px;
     border-radius: 24px;
+    padding: 16px;
+    margin-top: 20px;
 }
 
 .botaoMais{
@@ -73,9 +67,9 @@
     margin-left: 30px;
     margin-top: 20px;
 
-    
-
 }
+
+
 
 .nome{
     background-color:white;
@@ -86,6 +80,9 @@
     display: flex;
     justify-content: center;
     height: 90%;
+    display: flex;
+    align-items: center;
+
 }
 
 .descricao{
@@ -98,6 +95,9 @@
     border: 1px solid lightgray;
     justify-content: center;
     height: 90%;
+    display: flex;
+    align-items: center;
+
 }
 
 .lixeira{
@@ -134,6 +134,9 @@
     border: 1px solid lightgray;
     justify-content: center;
     height: 90%;
+    display: flex;
+    align-items: center;
+
 }
 
 .infoFoto{
@@ -151,11 +154,9 @@
     border: 1px solid lightgray;
     justify-content: center;
     height: 90%;
-}
+    display: flex;
+    align-items: center;
 
-.infoTag{
-    font-family: Poppins;
-    font-weight: 500;
 }
 
 
@@ -169,6 +170,9 @@ background-color: white;
     border: 1px solid lightgray;
     justify-content: center;
     height: 90%;
+    display: flex;
+    align-items: center;
+
 }
 
 
@@ -182,6 +186,58 @@ background-color: white;
 
 .colecao{
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.ativarButton{
+    width: 24px;
+    height: 24px;
+    background-color:#FFFFFF ;
+    border: none;
+}
+
+.ativo{
+    background-color: white;
+    width: 640px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
+    height: 90%;
+    display: flex;
+    align-items: center;
+
+}
+
+.infoPreco{
+    font-weight: 300;
+}
+
+#salgadoInformacaoVermelho{
+    background-color: #FF2459;
+}
+
+body{
+    background-color: var(--background--);
+    padding: 16px;
+}
+
+.editar{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px;
+    display: flex;
+    border: 1px solid lightgray;
+    justify-content: center;
     display: flex;
     align-items: center;
 

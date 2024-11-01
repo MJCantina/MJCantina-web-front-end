@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>funcionários</title>
-    <link rel="stylesheet" href="css/layout/funcionario.css">
-    <link rel="stylesheet" href="css/base/tipografia.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="painelControle">
-        <h1 class="logoMJ">Bom dia, Jerry!</h1>
-        <p class="subtitulo">Gerênciamento de preço e produtos</p>
-    </div>
-
+    <header>
+        <div class="saudacao">
+            <h1 class="logoMJ">Bom dia, Jerry!</h1>
+            <div><p>Gerenciamento de preço e produtos</p></div>
+        </div>
+        <div class="btns_header">
+            <button class="btns_balcao_conta">Balcao</button>
+            <button class="btns_balcao_conta">Conta</button>
+            <button class="btns_config_sair"><img src="assets/setting-2-black.svg" alt=""></button>
+            <button class="btns_config_sair"><img src="assets/logout_black.svg" alt=""></button>
+        </div>
+    </header>
+    
     <div class="adicionar">
-        <h2 class="addF">
-            produtos
+        <h2>
+            Produtos
         </h2>
         <button class="botaoMais" type="submit"><img src="assets/add.svg" alt="botão de mais"></button>
     </div>
 
-    <div class="informacao">
+    <section class="informacao">
 
         <div class="colecao">
             <h2>Salgados</h2>
@@ -28,31 +35,327 @@
             <button class="botaoInformacao" type="submit"><img src="assets/info-circle.svg" alt="botão de informação"></button>
         </div>
 
-        <div class="salgadoInformacao">
-            <div class="nome">
-                <h3 class="infoNome">Nome:</h3>
+        <div class="salgadoInformacao" id="salgadoInformacaoVermelho">
+            <div class="descricao">
+                <h3>Nome:</h3>
+            <button class="editar">
+    <img src="assets/edit.svg" alt="botão de editar informações">
+            </button>
+
+
             </div>
     
             <div class="descricao"> 
-                <h3 class="infoDescricao">Descriçao:</h3>
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+
             </div>
            
-            <div class="foto"> 
-                <h3 class="infoFoto">Foto:</h3>
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">         
+                   </button>
+
             </div>
 
-            <div class="tag"> 
-                <h3 class="infoTag">Tag:Salgados</h3>
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+
             </div>
 
-            <div class="preco"> 
-                <h3 class="infoPreco">Preço: R$ 3,08</h3>
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo">
+                </button>
+            </div>
+
+            <button class="lixeira"><img src="assets/trash.svg" alt="lixeira">
+            </button>
+        </div>
+
+        <div class="salgadoInformacao">
+            <div class="descricao">
+                <h3>Nome:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+    
+            <div class="descricao"> 
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+           
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo"></button>
             </div>
 
             <button class="lixeira"><img src="assets/trash.svg" alt="lixeira"></button>
         </div>
-    </div>
 
-  
+        <div class="salgadoInformacao">
+            <div class="descricao">
+                <h3>Nome:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+    
+            <div class="descricao"> 
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+           
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo"></button>
+            </div>
+
+            <button class="lixeira"><img src="assets/trash.svg" alt="lixeira"></button>
+        </div>
+
+        <div class="salgadoInformacao">
+            <div class="descricao">
+                <h3>Nome:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+    
+            <div class="descricao"> 
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+           
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo"></button>
+            </div>
+
+            <button class="lixeira"><img src="assets/trash.svg" alt="lixeira"></button>
+        </div>
+
+        <div class="salgadoInformacao">
+            <div class="descricao">
+                <h3>Nome:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+    
+            <div class="descricao"> 
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+           
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo"></button>
+            </div>
+
+            <button class="lixeira"><img src="assets/trash.svg" alt="lixeira"></button>
+        </div>
+
+        <div class="salgadoInformacao">
+            <div class="descricao">
+                <h3>Nome:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+    
+            <div class="descricao"> 
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+           
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo"></button>
+            </div>
+
+            <button class="lixeira"><img src="assets/trash.svg" alt="lixeira"></button>
+        </div>
+
+        <div class="salgadoInformacao">
+            <div class="descricao">
+                <h3>Nome:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+    
+            <div class="descricao"> 
+                <h3>Descriçao:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+           
+            <div class="descricao"> 
+                <h3>Foto:</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Tag:Salgados</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Preço: R$ 3,08</h3>
+                <button class="editar">
+                    <img src="assets/edit.svg" alt="botão de editar informações">
+                </button>
+            </div>
+
+            <div class="descricao"> 
+                <h3>Ativo:</h3>
+                <button class="ativarButton"><img src="assets/arrow-down.svg" alt="seta para baixo"></button>
+            </div>
+
+            <button class="lixeira"><img src="assets/trash.svg" alt="lixeira"></button>
+        </div>
+
+        
+        
+
+        
+    </section>
+
+
 </body>
 </html>
