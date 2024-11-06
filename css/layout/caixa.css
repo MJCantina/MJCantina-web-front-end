@@ -120,3 +120,21 @@
     height: 150px;
     background-color: red;
 }
+
+.codigoProduto{
+    background-color: blue;
+    width: 50%;
+    height: 100px;
+}
+
+.contador{
+    background-color: black;
+    width: 50%;
+    height: 100px;
+}
+
+.listaPedidos{
+    background-color: yellow;
+    width: 100%;
+    height: 430px;
+}

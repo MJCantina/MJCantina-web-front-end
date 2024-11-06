@@ -62,4 +62,31 @@
     
     }
     
+  .btn_adicionarNovaConta{
+    border-radius: 16px;
+    border: 1px solid lightgray;
+    background-color: var(--cor-branca--);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: Poppins;
+    margin-right: 20px;
+  }
+ 
+  .adicionarNovaConta{
+    border-radius: 16px;
+    border: 1px solid lightgray;
+    background-color: var(--cor-branca--);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: Poppins;
+    margin-right: 8px;
+    width: 201px;
+    height: 50px;
+    background-color: #FF2459;
+    color: white;
   
+  }
