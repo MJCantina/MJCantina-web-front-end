@@ -49,14 +49,14 @@
 }
 
 .containerF{
-    background-color: rgb(228, 227, 227);
-    height: 700px;
+    background-color: var(--cor-cinza--);
+    height: 500px;
     border-radius: 24px;
     padding: 16px;
 }
 
 .containerConta{
-    background-color: rgb(228, 227, 227);
+    background-color: var(--cor-cinza--);
     height: 700px;
     border-radius: 24px;
     padding: 16px;

@@ -14,7 +14,7 @@
             <div><p>Pedidos do aplicativo</p></div>
         </div>
         <div class="btns_header">
-            <button class="btns_balcao_conta">Balcao</button>
+            <button class="btns_balcao_conta">Balcão</button>
             <button class="btns_balcao_conta">Conta</button>
             <button class="btns_config_sair"><img src="assets/setting-2-black.svg" alt=""></button>
             <button class="btns_config_sair"><img src="assets/logout_black.svg" alt=""></button>
@@ -29,6 +29,29 @@
                 <div class="quant_pedidos_fazer"></div>
                 <div class="icon_eye"><img src="assets/eye.svg" alt=""></div>
             </div>
+            <div class="lista_pedidos_a_fazer">
+            
+                <h3 class="numero_pedido">#1</h3>
+                <p class="itens_pedido">Batata Frita <br> Refrigerante <br> Coxinha</p>
+                <p class="nome_do_cliente">Plínio Calvacante</p>
+                <div class="btn_expandir">
+                    <button class="btn_concluir_pedidos">Concluir</button>
+                    <button class="pop_up_expandir" id="pop_up_expandir"><img src="assets/maximize-4.svg" alt=""></button>
+                </div>
+                
+                <!-- Estrutura do popup -->
+                <div id="popup" class="popup">
+                    <div class="popup-content">
+                        <h3 class="numero_pedido">#1</h3>
+                        <p class="itens_pedido">Batata Frita <br> Refrigerante <br> Coxinha</p>
+                        <p class="nome_do_cliente">Plínio Calvacante</p>
+                        <div class="centralizar_fechar_popup">
+                            <button class="pop_up_fechar" id="pop_up_fechar">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
         </div>
         
         <div class="pedidos_concluidos">
@@ -37,6 +60,18 @@
                 <div class="quant_pedidos_concluidos"></div>
                 <div class="icon_eye"><img src="assets/eye.svg" alt=""></div>
             </div>
+            <div class="lista_pedidos_a_fazer">
+            
+                <h3 class="numero_pedido">#1</h3>
+                <p class="itens_pedido">Batata Frita <br> Refrigerante <br> Coxinha</p>
+                <p class="nome_do_cliente">Plínio Calvacante</p>
+                <div class="btn_expandir">
+                    <button class="btn_finalizar_pedidos">Finalizar</button>
+                    <button class="pop_up_expandir"> <img src="assets/maximize-4.svg" alt="Expandir o pedido"></button>
+                </div>  
+              
+            </div>
+            
         </div>
     
     </section>
@@ -46,6 +81,17 @@
                 <h2>Histórico de Pedidos</h2>
                 <div class="icon_eye"><img src="assets/eye.svg" alt=""></div>
             </div>
+            <div class="lista_pedidos_a_fazer">
+            
+                <h3 class="numero_pedido">#1</h3>
+                <p class="itens_pedido">Batata Frita <br> Refrigerante <br> Coxinha</p>
+                <p class="nome_do_cliente">Plínio Calvacante</p>
+                <div class="btn_expandir">
+                    <button class="btn_revisar_pedidos">Revisar</button>
+                    <button class="pop_up_expandir"> <img src="assets/maximize-4.svg" alt="Expandir o pedido"></button>
+                </div>  
+              
+            </div>
         </div>
     </section>
     <div class="teste">
@@ -54,5 +100,24 @@
         <img src="assets/Frame 1981 (2).svg" alt="">
     </div>
    
+
+    <script>
+       // Seleciona os elementos
+        const openPopupButton = document.getElementById('pop_up_expandir');
+        const closePopupButton = document.getElementById('pop_up_fechar');
+        const popup = document.getElementById('popup');
+
+        // Abre o popup
+        openPopupButton.addEventListener('click', () => {
+            popup.style.display = 'flex';
+            document.body.classList.add('no-scroll'); // Desativa o scroll do fundo
+        });
+
+        // Fecha o popup
+        closePopupButton.addEventListener('click', () => {
+            popup.style.display = 'none';
+            document.body.classList.remove('no-scroll'); // Reativa o scroll do fundo
+        });
+    </script>
 </body>
 </html>

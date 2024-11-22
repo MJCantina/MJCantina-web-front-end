@@ -8,10 +8,11 @@
 .pedidos_a_fazer{
     background-color: var(--cor-cinza--);
     width: 610px;
-    height: 320px;
+    height: 370px;
     border-radius: 16px;
     padding: 24px;
     display: flex;
+    flex-direction: column;
     
 }
 
@@ -44,7 +45,7 @@
 .pedidos_concluidos{
     background-color: var(--cor-cinza--);
     width: 610px;
-    height: 320px; 
+    height: 370px; 
     border-radius: 24px;
     padding: 24px;
 }
@@ -68,19 +69,18 @@
 
 #historico_pedidos{
     width: 100%;
-    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .historico{
-    width: 98%;
+    width: 1254px;
     padding: 24px;
     border-radius: 24px;
-    height: 320px;
+    height: 370px;
     background-color: var(--cor-cinza--);
-    margin-top: 10px;
+    margin-top: 80px;
 }
 
 .titulo_historico{
@@ -94,4 +94,95 @@
 .teste{
     height: 1000px;
     position: fixed;
+}
+
+.lista_pedidos_a_fazer{
+    width: 200px;
+    height: 250px;
+    margin-top: 16px;
+    border-radius: 24px;
+    padding: 16px;
+    background-color: var(--cor-branca--);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.numero_pedido{
+    font-weight: 700;
+}
+
+.itens_pedido{ 
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-preta--);
+}
+
+.nome_do_cliente{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--cor-preta--);
+}
+
+.btn_expandir{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop_up_expandir{
+    background-color: var(--cor-cinza--);
+    color: var(--cor-branca--);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--poppins--);
+    font-size: 10px;
+    font-weight: 600;
+    border: none;
+    width: 60px;
+    height: 55px;
+    text-decoration: none;
+  }
+
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+}
+
+/* Estilo para o conteúdo do popup */
+.popup-content {
+    width: 400px;
+    height: 500px;
+    margin-top: 16px;
+    border-radius: 24px;
+    padding: 32px;
+    background-color: var(--cor-branca--);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+/* Para desativar o scroll ao abrir o popup */
+body.no-scroll {
+    overflow: hidden;
+}
+
+.centralizar_fechar_popup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

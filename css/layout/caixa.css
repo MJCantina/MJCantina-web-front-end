@@ -1,140 +1,239 @@
-.caixa{
-    width: 100%;
-    height: 570px;
+/* Header Caixa */
+.titulo_Caixa{
+    width: 50%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.containerCaixa1{
-    width: 60%;
-    height: 570px;
-    padding-right: 16px;
-}
-
-.categoriasCaixa{
+/* Section Painel Caixa */
+.painel_caixa{
+    display: flex;
+    height: 610px;
     width: 100%;
-    height: 100px;
+    justify-content: space-between;
+}
+
+.itens_caixa{
+    width: 60%;
+    height: 100%;
+}
+
+.container_categorias_produtos_caixa{
+    width: 100%;
+    height: 50px;
     display: flex;
     justify-content: space-between;
-    align-items:center;
 }
 
-.nome_categorias_caixa{
-    display: flex;
-    background-color: var(--cor-branca--);
-    border: var(--borda--);
-    width: 95px;
+.categorias_caixa{
+    width: 100px;
     height: 50px;
+    background-color: var(--cor-branca--);
+    border-radius: 16px;
+    border: 1px solid var(--cor-cinza--);
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 12px;
-    font-family: var(--poppins--);
-    font-weight: 500;
-    font-size: 12px;
 }
 
-.filtro{
-    display: flex;
+.categorias_caixa:hover{
+    background-color: var(--cor-rosa_opaco--) ;
+}
+
+p{
+    color: var(--cor-preta);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container_filtro_letras{
     width: 100%;
-    height: 50px;
+    height: 80px;
+    display: flex;
     justify-content: flex-start;
     gap: 10px;
-    border-radius: 12px;
-}
-
-.letras{
-    background-color: var(--cor-branca--);
-    width: 55px;
-    height: 45px;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 12px;
-    border: var(--borda--);
-
 }
 
-.cardapio{
+
+.filtro_letras{
+    width: 70px;
+    height: 50px;
+    background-color: var(--cor-branca--);
+    border-radius: 16px;
+    border: 1px solid var(--cor-cinza--);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtro_letras:hover{
+    background-color: var(--cor-rosa_opaco--) ;
+}
+
+.produtos_e_valores_caixa{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
     width: 100%;
-    height: 100px;
+    height: 400px;
+}
+
+.especificacao_produtos{
+    width: 250px;
+    height: 130px;
+    border-radius: 16px;
+    border: 1px solid var(--cor-cinza--);
+    background-color: var(--cor-branca--);
+    display: flex;
+    overflow: hidden;
+}
+
+.imagem_produto_caixa{
+    width:45%;
+    background-color: lightgray;
+}
+
+.descr_nome_e_valor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+}
+
+.nome_produto_caixa{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.valor_produto_caixa{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Section Soma dos Produtos */
+
+.soma_produtos_caixa{
+    height: 600px;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.codigo_e_contador{
+    height: 200px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 12px;
 }
 
-.coluna1{
-    background-color: var(--cor-branca--);
-    width: 230px;
-    height: 100px;
-    border-radius: 12px;
-    border: var(--borda--);
+.borda_codigo_contador_caixa{
+    width: 48%;
+    height: 80px;
+    background-color: var(--cor-cinza--);
+    border-radius: 16px;
+    padding: 16px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--poppins--);
-    font-weight: 500;
-    font-size: 12px;
+    justify-content: space-between;
 }
 
-.coluna2{
-    background-color: var(--cor-branca--);
-    width: 230px;
-    height: 100px;
-    border-radius: 12px;
-    border: var(--borda--);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--poppins--);
-    font-weight: 500;
-    font-size: 12px;
-}
-
-.coluna3{
-    background-color: var(--cor-branca--);
-    width: 230px;
-    height: 100px;
-    border-radius: 12px;
-    border: var(--borda--);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--poppins--);
-    font-weight: 500;
-    font-size: 12px;
-}
-
-
-#bodyPaginaCaixa{
-    display: flex;
-}
-
-.containerCaixa2{
-    background-color: aqua;
-    width: 40% ;
-    height: 570px;
-}
-
-.codigoEcontador{
+#codigo_caixa{
     width: 100%;
+    height: 100%;
+    background-color: var(--cor-branca--);
+    border-radius: 8px;
+    outline: none;
     display: flex;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: gray;
+}
+
+.numero_de_itens_no_contador{
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    background-color: var(--cor-branca--);
+}
+
+/* Descrição itens a serem comprados */
+
+.descricao_itens_a_serem_comprados{
+    height: 900px;
+    background-color: var(--cor-cinza--);
+    border-radius: 16px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.produto_comprado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 218, 218);
+}
+
+.quantidade_e_produto{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.numero_itens_no_pedido{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nome_item_comprado{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.preco_especificado{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*Valor total */
+
+.valor_total_caixa{
     height: 150px;
-    background-color: red;
-}
-
-.codigoProduto{
-    background-color: blue;
-    width: 50%;
-    height: 100px;
-}
-
-.contador{
-    background-color: black;
-    width: 50%;
-    height: 100px;
-}
-
-.listaPedidos{
-    background-color: yellow;
     width: 100%;
-    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: var(--cor-cinza--);
+    align-items: center;
+}
+
+.titulo_valor_total_caixa{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.preco_total_pedido_caixa{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btns_cancelar_prosseguir_pedido{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
 }
