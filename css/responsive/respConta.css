@@ -1,0 +1,13 @@
+@media (max-width:375px) {
+    header#headerConta{
+        height: 200px;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoMJ{
+        font-size: 10px;
+    }
+
+}
