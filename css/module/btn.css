@@ -29,7 +29,18 @@
         justify-content: space-around;
         align-items: center;
     }
+<<<<<<< Updated upstream
   
+=======
+
+    .btns_header_historico{
+        width: 20%;
+        display: flex;
+        justify-content: space-evenly   ;
+        align-items: center;
+    }
+    
+>>>>>>> Stashed changes
     
     .btns_balcao_conta{
        
