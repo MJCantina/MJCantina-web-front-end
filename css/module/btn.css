@@ -19,12 +19,17 @@
     text-decoration: none;
     }
 
+  .btn:hover{
+    opacity: .8;
+  }
+
     .btns_header{
         width: 30%;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
+  
     
     .btns_balcao_conta{
        
@@ -107,9 +112,10 @@
     text-decoration: none;
   }
 
+  .btn_concluir_pedidos:hover{
+    opacity: .8;
+  }
  
-
-
   .btn_finalizar_pedidos{
     background-color: var(--cor-rosa--);
     color: var(--cor-branca--);
@@ -126,6 +132,10 @@
     text-decoration: none;
   }
 
+  .btn_finalizar_pedidos:hover{
+    opacity: .8;
+  }
+
   .btn_revisar_pedidos{
     background-color: var(--cor-rosa--);
     color: var(--cor-branca--);
@@ -140,6 +150,30 @@
     width: 100px;
     height: 55px;
     text-decoration: none;
+  }
+
+  .btn_revisar_pedidos:hover{
+    opacity: .8;
+  }
+
+  .pop_up_expandir{
+    background-color: var(--cor-cinza--);
+    color: var(--cor-branca--);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--poppins--);
+    font-size: 10px;
+    font-weight: 600;
+    border: none;
+    width: 60px;
+    height: 55px;
+    text-decoration: none;
+  }
+
+  .pop_up_expandir:hover{
+    opacity: .8;
   }
 
   .pop_up_fechar{
