@@ -89,7 +89,7 @@
         margin-right: 8px;
         width: 201px;
         height: 50px;
-        background-color: #FF2459;
+        background-color: var(--cor-rosa--);
         color: white;
   
   }
@@ -256,4 +256,47 @@
 
   .btn_prosseguir_compra_caixa:hover{
     opacity: .8;
+  }
+
+  .btnsFormaDePagamento{
+    height: 150px;
+    width: 180px;
+    background-color: var(--cor-branca--);
+    border: 1px solid var(--cor-cinza--);
+    border-radius: 16px;
+  }
+
+  .btnsFormaDePagamento:hover{
+   background-color: var(--cor-cinza-escuro--);
+  }
+
+  /* Botões de Prosseguir ou Cancelar Compra adaptados para tela - Forma de Pagamento (caixa) */
+  .btn_prosseguir_compra_caixa_form_pag{
+    height: 60px;
+    width: 100%;
+    background-color: var(--cor-rosa--);
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-branca--);
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .btn_cancelar_compra_caixa{
+    height: 60px;
+    width: 100%;
+    background-color: var(--cor-cinza-escuro--);
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-branca--);
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
   }

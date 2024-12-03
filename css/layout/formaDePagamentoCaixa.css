@@ -1,0 +1,20 @@
+.formaDePagamentoCaixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.creditoEPix{
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.dinheiroEDebito{
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
