@@ -1,0 +1,15 @@
+
+
+.confirmarPagamentoCaixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.containerConfPag{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}

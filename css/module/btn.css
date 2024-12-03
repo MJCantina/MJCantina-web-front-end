@@ -286,10 +286,42 @@
     font-weight: 600;
   }
 
-  .btn_cancelar_compra_caixa{
+  .btn_cancelar_compra_caixa_form_pag{
     height: 60px;
     width: 100%;
     background-color: var(--cor-cinza-escuro--);
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-branca--);
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  /* Botões adaptados para página de confirmação do pagamentp  (caixa) */
+
+  .btn_cancelar_compra_caixa_conf_pag{
+    height: 60px;
+    width: 300px;
+    background-color: var(--cor-cinza-escuro--);
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-branca--);
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .btn_prosseguir_compra_caixa_conf_pag{
+    height: 60px;
+    width: 300px;
+    background-color: var(--cor-rosa--);
     border-radius: 12px;
     border: none;
     display: flex;
