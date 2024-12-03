@@ -332,3 +332,18 @@
     font-size: 16px;
     font-weight: 600;
   }
+
+  .btn_proximo_pedido{
+    height: 60px;
+    width: 300px;
+    background-color: var(--cor-rosa--);
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-branca--);
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
