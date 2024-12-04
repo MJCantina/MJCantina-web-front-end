@@ -1,18 +1,4 @@
-.bottom_bar{
-    display: flex;
-    justify-content: space-between;
-    padding: 2px 16px;
-    padding-top: 8px;
-    align-items: center;
-    min-width: 260px;
-    background-color: var(--cor-branca--);
-    border-radius: 24px;
-    border: 1px solid var(--cor-cinza--);
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 8px;
-}
+
 
 
 

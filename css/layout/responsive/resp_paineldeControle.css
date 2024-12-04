@@ -8,8 +8,13 @@
     .organizarIcon{
         width: 500px;
     }
+
+    .categoriasConfig{
+        width: 300px;
+    }
     .boxConf{
         padding: 16px;
+        height: 530px;
     }
     .bottom_bar{
         width: 40%;
@@ -17,12 +22,6 @@
         justify-content: center;
         align-items: center;
     }
-    .navigationBar{
-        width: 100%;
-        height: 100px;
-        background-color: aqua;
-    }
-
 }
 
 @media (max-width: 768px){
@@ -30,4 +29,5 @@
         height:530px;
         padding-bottom: 16px;
     }
-}
+
+    }
