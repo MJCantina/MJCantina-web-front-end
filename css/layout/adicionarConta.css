@@ -1,5 +1,4 @@
 .adicionarConta{
-    height: 240px;
     width: 100%;
     background-color: var(--cor-cinza--);
     border-radius: 24px;
@@ -17,8 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width: 1200px;
+    width: 100%;
     gap: 8px;
     border-radius: 24px;
     padding: 8px;
@@ -30,7 +28,7 @@
     background-color: var(--cor-branca--);
     color: black;
     font-weight: 500;
-    width: 500px;
+    width: 100%;
     
 }
 
@@ -38,7 +36,7 @@
     background-color: var(--cor-branca--);
     color: black;
     font-weight: 500;
-    width: 500px;
+    width: 100%;
     display: flex;
 }
 

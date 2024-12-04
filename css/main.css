@@ -22,6 +22,11 @@
 @import url("layout/estoque.css");
 @import url("layout/funcionarios.css");
 @import url("layout/caixa.css");
+<<<<<<< Updated upstream
 @import url("responsive/respConta.css");
 @import url("layout/formaDePagamentoCaixa.css");
 @import url("layout/caixaConfirmarPagamento.css");
+=======
+@import url("layout/responsive/adicionarConta.css");
+@import url("layout/responsive/historicoFuncionario.css");
+>>>>>>> Stashed changes

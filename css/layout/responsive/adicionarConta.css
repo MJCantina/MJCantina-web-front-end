@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    .adicionarContaInformacao{
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+    .adicionarNovaConta{
+        width: 100%;
+    }
+    #header-ac{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
