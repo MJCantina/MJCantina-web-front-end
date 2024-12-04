@@ -10,11 +10,6 @@
 @import url("layout/senhaAtualizada.css");
 @import url("base/variaveis.css");
 @import url("base/tipografia.css");
-@import url("layout/responsive/resp_login.css");
-@import url("layout/responsive/resp_esqueceuSenha.css");
-@import url("layout/responsive/resp_recuperarSenha.css");
-@import url("layout/responsive/resp_senhaAtualizada.css");
-@import url("layout/responsive/resp_codigo.css");
 @import url("layout/telaInicial.css");
 @import url("layout/header_home.css");
 @import url("layout/painelDeControle.css");
@@ -22,6 +17,14 @@
 @import url("layout/estoque.css");
 @import url("layout/funcionarios.css");
 @import url("layout/caixa.css");
-@import url("responsive/respConta.css");
 @import url("layout/formaDePagamentoCaixa.css");
 @import url("layout/caixaConfirmarPagamento.css");
+
+/* Responsividade */
+@import url("responsive/respConta.css");
+@import url("layout/responsive/resp_login.css");
+@import url("layout/responsive/resp_esqueceuSenha.css");
+@import url("layout/responsive/resp_recuperarSenha.css");
+@import url("layout/responsive/resp_senhaAtualizada.css");
+@import url("layout/responsive/resp_codigo.css");
+@import url("layout/responsive/resp_telaInicial.css");
