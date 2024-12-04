@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+    #header-est {
+        text-align: center;
+    }
+    #header-est > .saudacao {
+        padding: 0;
+    }
+    #btns_header {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+    }
+}

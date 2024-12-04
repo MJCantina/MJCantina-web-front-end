@@ -60,14 +60,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
-    width:100% ;
+    width: 100% ;
     gap: 8px;
     border-radius: 24px;
     padding: 8px;
     margin-left: 10px;
     margin-top: 20px;
-
+    flex-wrap: wrap;
 }
 
 
@@ -88,7 +87,6 @@
 
 .descricao{
     background-color: var(--cor-branca--);
-    width: 640px;
     border-radius: 16px;
     gap: 8px;
     border: 1px;
@@ -98,7 +96,7 @@
     height: 90%;
     display: flex;
     align-items: center;
-
+    padding: 12px 36px;
 }
 
 .lixeira{
