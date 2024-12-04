@@ -30,4 +30,14 @@
         padding-bottom: 16px;
     }
 
+}
+
+@media (max-width: 430px){
+    .boxConf{
+        height: 1100px;
     }
+    h1.logoMJ{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
