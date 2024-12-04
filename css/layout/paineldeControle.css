@@ -19,7 +19,7 @@
 }
 
 .categoriasConfig{
-    width: 220px;
+    width: 170px;
     height: 150px;
     background-color: var(--cor-branca--);
     border-radius: 8px;
@@ -27,6 +27,7 @@
     align-items: end;
     padding: 8px;
     font-family: var(--poppins--);
+    
 }
 
 .icons{
