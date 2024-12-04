@@ -286,6 +286,10 @@
     font-weight: 600;
   }
 
+  .btn_prosseguir_compra_caixa_form_pag:hover{
+    opacity: .8;
+  }
+
   .btn_cancelar_compra_caixa_form_pag{
     height: 60px;
     width: 100%;
@@ -299,6 +303,10 @@
     gap: 8px;
     font-size: 16px;
     font-weight: 600;
+  }
+
+  .btn_cancelar_compra_caixa_form_pag:hover{
+    opacity: .8;
   }
 
   /* Botões adaptados para página de confirmação do pagamentp  (caixa) */
@@ -318,6 +326,10 @@
     font-weight: 600;
   }
 
+  .btn_cancelar_compra_caixa_conf_pag:hover{
+    opacity: .8;
+  }
+
   .btn_prosseguir_compra_caixa_conf_pag{
     height: 60px;
     width: 300px;
@@ -333,6 +345,10 @@
     font-weight: 600;
   }
 
+  .btn_prosseguir_compra_caixa_conf_pag:hover{
+    opacity: .8;
+  }
+
   .btn_proximo_pedido{
     height: 60px;
     width: 300px;
@@ -346,4 +362,8 @@
     gap: 8px;
     font-size: 16px;
     font-weight: 600;
+  }
+
+  .btn_proximo_pedido:hover{
+    opacity: .8;
   }

@@ -19,6 +19,7 @@
 @import url("layout/caixa.css");
 @import url("layout/formaDePagamentoCaixa.css");
 @import url("layout/caixaConfirmarPagamento.css");
+@import url("layout/numeroPedidoEConf.css");
 
 /* Responsividade */
 @import url("responsive/respConta.css");
@@ -34,3 +35,4 @@
 @import url("layout/responsive/adicionarConta.css");
 @import url("layout/responsive/historicoFuncionario.css");
 @import url("layout/responsive/resp_estoque.css");
+@import url("layout/responsive/resp_numeroPedidoEConf.css");
