@@ -262,7 +262,7 @@
     height: 150px;
     width: 180px;
     background-color: var(--cor-branca--);
-    border: 1px solid var(--cor-cinza--);
+    border: 2px solid var(--cor-cinza--);
     border-radius: 16px;
   }
 
