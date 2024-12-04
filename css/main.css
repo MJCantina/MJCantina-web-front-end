@@ -28,13 +28,8 @@
 @import url("layout/responsive/resp_senhaAtualizada.css");
 @import url("layout/responsive/resp_codigo.css");
 @import url("layout/responsive/resp_telaInicial.css");
-=======
-<<<<<<< Updated upstream
 @import url("responsive/respConta.css");
 @import url("layout/formaDePagamentoCaixa.css");
 @import url("layout/caixaConfirmarPagamento.css");
-=======
 @import url("layout/responsive/adicionarConta.css");
 @import url("layout/responsive/historicoFuncionario.css");
->>>>>>> Stashed changes
->>>>>>> d3d5ce19c1b6a232e736bdcb224258d275e5a5ec
